@@ -9,10 +9,16 @@ const PostLists = () => {
     setShow({ show: value });
   };
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    alert(`${show.show} submitted`);
+    setShow({ show: "" });
+  };
+
   return (
     <div className={style.postList_container}>
       <p>Type in your favorite show</p>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div>
           <input
             type='text'
