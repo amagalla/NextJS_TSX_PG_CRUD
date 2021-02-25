@@ -1,11 +1,10 @@
 import React from "react";
-import GetLists from "./components/GetLists";
+import PostLists from "./components/PostLists";
 
 const App = () => {
   return (
     <>
-      <div>This is App</div>
-      <GetLists />
+      <PostLists />
     </>
   );
 };

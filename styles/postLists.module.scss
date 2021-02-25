@@ -1,0 +1,30 @@
+.postList_container {
+  width: 80%;
+  margin: auto;
+  margin-top: 10em;
+}
+
+.postList_container p {
+  text-align: center;
+}
+
+.postList_container form {
+  margin-top: 0.8em;
+  border: solid;
+}
+
+.postList_container form div {
+  border: solid;
+  display: flex;
+  justify-content: center;
+}
+
+.postList_container form div input {
+  text-align: center;
+}
+
+.postList_container form span {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+}
