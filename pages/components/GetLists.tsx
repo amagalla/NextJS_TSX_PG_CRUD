@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 
-const GetLists: FunctionComponent = () => {
-  return <div>This is lists!</div>;
+const GetLists = () => {
+  return <div>This is GetLists</div>;
 };
 
 export default GetLists;

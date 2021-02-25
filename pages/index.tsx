@@ -1,9 +1,10 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import GetLists from "./components/GetLists";
 
-const App: FunctionComponent = () => {
+const App = () => {
   return (
     <>
+      <div>This is App</div>
       <GetLists />
     </>
   );
