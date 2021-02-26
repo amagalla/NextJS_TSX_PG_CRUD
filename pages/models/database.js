@@ -1,7 +1,6 @@
 const { Pool } = require("pg");
 
-const myURI =
-  "postgres://okhmmvet:aLL9v67r3j2ADvP1Z601jPtLtsLQjkZS@ziggy.db.elephantsql.com:5432/okhmmvet";
+const myURI = process.env.pg;
 
 const URI = process.env.PG_URI || myURI;
 
@@ -22,7 +21,7 @@ Schema
 
 CREATE TABLE Shows (
 id SERIAL PRIMARY KEY,
-show VARCHAR(15) NOT NULL
+show VARCHAR(50) NOT NULL
 );
 
 */
